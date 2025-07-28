@@ -10,7 +10,9 @@ console.log(gameName.__proto__);
 console.log(gameName.length);
 console.log(gameName.toLocaleUpperCase());
 console.log(gameName.charAt(3));
-console.log(gameName.indexOf('h'));
+// console.log(gameName.indexOf('h'));
+console.log(game.Name.indexOf('h'));
+
 
 const newString = gameName.substring(8, 3)
 console.log(newString);
